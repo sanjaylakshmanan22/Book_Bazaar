@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Books</title>
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+<body>
+    <div class="header">
+        <div>
+            <h1>Book Bazaar: Discover, Review, and Share</h1>
+            <p>Welcome to Book Bazaar, a place where you can find and 
+                explore many books. Share your reviews and discover new 
+                favorites with vibrant cover images from the Open Library 
+                API. Join our community of book lovers and enjoy your reading journey!
+            </p>
+            <hr>
+        </div>
+    </div>
+    <% for(let i=0;i<id.length;i++){ %>
+    <div class="content">
+        <div>
+            <img class="bookCover" src="<%= id[i] %>">
+        </div>
+        <div>
+            <h2><%= titles[i] %></h2>
+            <p><%= date[i] %></p>
+            <p><%= review[i] %></p>
+        </div>
+    </div>
+    <% } %>
+</body>
+</html> 

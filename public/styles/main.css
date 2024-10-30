@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+.header{
+    margin-bottom: 10px;
+    width: 800px;
+}
+.bookCover{
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+}
+.content{
+    display: flex;
+    column-gap: 20px;
+    margin:10px 10px;
+}

@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-width: 400px;
+    max-width: 600px;
+    margin-bottom: 10px;
+    background-color: aqua;
+}
